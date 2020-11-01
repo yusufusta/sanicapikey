@@ -8,7 +8,7 @@ with open('README.md') as f:
 
 setup(
     name='SanicApiKey',
-    version='1.0.0',
+    version='1.0.1',
     description='Basic Sanic API Key plugin.',
     long_description=long_description,
     author='Yusuf Usta',

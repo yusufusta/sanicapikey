@@ -1,13 +1,3 @@
-# Sanic Api Key
-Basic support for API Keys. Support form, args, header.
-
-## Installion 
-```sh
-pip install sanicapikey
-```
-
-## Example Usage
-```python
 from sanic import Sanic
 from sanic.response import text, json
 from SanicApiKey import SanicApiKey
@@ -32,4 +22,3 @@ async def test(request):
 
 if __name__ == '__main__':
     app.run(host='localhost', port=8000)
-```
